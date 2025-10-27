@@ -47,7 +47,7 @@ Test: ~624 images
 - **Key Techniques**: Transfer Learning, Data Augmentation, Grad-CAM visualization
 - **Performance**: Achieved ~95% training accuracy, ~87.5% validation accuracy.
 
-## 📂 Repository Structure
+##  Repository Structure
 ```
 
 Chest-X-Ray-Pneumonia-Detection/
@@ -64,17 +64,17 @@ Chest-X-Ray-Pneumonia-Detection/
 
 ````
 
-## 📊 Results
+## Results
 
 * **Validation Accuracy**: \~87.5%
 * **F1-Score (Test)**: \~0.50 (imbalanced dataset — further tuning needed)
 * **Observation**: Model performs well but struggles with **small test set & noise in X-rays**.
 
-## 🔍 Interpretability (Grad-CAM)
+##  Interpretability (Grad-CAM)
 
 The repo includes **Grad-CAM visualizations** to highlight pneumonia-infected regions in X-rays.
 
-## ⚠️ Note
+##  Note
 
 While the training accuracy reached \~95%, **generalization on test data was lower** (\~50% F1). This highlights the **importance of robust validation, cross-validation, and dataset balancing** in medical ML.
 
