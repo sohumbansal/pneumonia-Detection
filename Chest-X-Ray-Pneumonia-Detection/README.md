@@ -7,10 +7,6 @@ This project implements a **binary classification model** for pneumonia detectio
 
 Pneumonia is an inflammatory condition primarily affecting the lungs, characterized by symptoms such as cough, chest pain, fever, and difficulty breathing. The goal of this project is to develop an automated system for detecting and classifying pneumonia in chest X-ray images.
 
-<p align="center">
-  <img width="485" height="480" alt="Chest X-ray Example" src="https://github.com/user-attachments/assets/646fa855-3ca4-4dd8-948a-9849067e0bdf" />
-</p>
-
 
 
 ## Motivation
@@ -68,20 +64,6 @@ Chest-X-Ray-Pneumonia-Detection/
 
 ````
 
-## 🚀 Quickstart
-
-```bash
-# Clone repo
- git clone https://github.com/BleeGleeWee/Chest-X-Ray-Pneumonia-Detection.git
- cd Chest-X-Ray-Pneumonia-Detection
-
-# Install requirements
- pip install -r requirements.txt
-
-# Run training
- python src/train.py
-````
-
 ## 📊 Results
 
 * **Validation Accuracy**: \~87.5%
@@ -97,23 +79,4 @@ The repo includes **Grad-CAM visualizations** to highlight pneumonia-infected re
 While the training accuracy reached \~95%, **generalization on test data was lower** (\~50% F1). This highlights the **importance of robust validation, cross-validation, and dataset balancing** in medical ML.
 
 ---
-
-## 🤝 Contributing
-
-This project is open for contributions! If you have ideas to improve the model, add visualizations, or enhance the code, feel free to submit a **pull request** or open an **issue**.  
-
-Please keep in mind:  
-- This repository is intended for **educational and research purposes only**.  
-- Any contributions should maintain the professional and ethical standards of AI in healthcare.  
-- Ensure that new code is properly documented and reproducible.  
-
-Welcoming improvements such as:  
-- Better data preprocessing or augmentation techniques  
-- New architectures or model enhancements  
-- Additional visualizations (training curves, Grad-CAMs, confusion matrices)  
-- Improved notebook explanations or tutorials  
-
-Thank you for helping make this project better! 🌟
-
-
 
